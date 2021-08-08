@@ -1001,8 +1001,7 @@ switch (command) {
 
 𝐇𝐨𝐥𝐚 ${pushname} 𝐛𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@ 𝐚𝐥 𝐦𝐞𝐧𝐮
 ╭────•••◈•••───╮
-TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1
-✦⏝࣪꒷꒦꒦꒷꒦⏝⏝꒦꒷✦
+KIKESPORT⚡BOT 👇🏻:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
 
 ₮ɄɌɃØ 𝐈𝐧𝐟𝐨
 ✪➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
@@ -1141,10 +1140,7 @@ TURBO⚡BOT 👇🏻: https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_c
 ✪➣ 𝐓𝐢𝐞𝐦𝐩𝐨 𝐚𝐜𝐭𝐢𝐯𝐨 : ${runtem}
 ✪➣ 𝐏𝐫𝐞𝐟𝐢𝐱 : 「 ${prefix} 」
 ╔══••ೋೋ••══╗
-   ☬✪𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬✪☬
-☞-𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑➣✪.li
-☞-𝐏𝐀𝐓𝐎ꪶ⸸ꫂ⁩𝐋𝐆𝐒➣✪.li
-╚═[𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑]═╝
+
 `
         	faketokoforwaded(menu)
            	break
