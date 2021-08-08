@@ -1003,14 +1003,14 @@ switch (command) {
 ╭────•••◈•••───╮
 KIKESPORT⚡BOT 👇🏻:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
 
-₮ɄɌɃØ 𝐈𝐧𝐟𝐨
+ 𝐈𝐧𝐟𝐨
 ✪➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
 ✪➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 ✪➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
 ✪➣ ${prefix}𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫
 ✪➣ ${prefix}𝐛𝐮𝐠
 
-₮ɄɌɃØ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
+ 𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
 ✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫
 ✪➣ ${prefix}𝐬𝐰𝐦
 ✪➣ ${prefix}𝐚𝐭𝐭𝐩
