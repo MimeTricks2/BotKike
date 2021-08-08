@@ -132,8 +132,8 @@ turbo.on('CB:action,,call', async json => {
 			teks += `Disfruta del grupo 🥳 se sociable y aporta 🤗, Quizás encuentres el amor      🥺 👉🏻👈🏻 💞♥️💞\n`
             teks += `Lee las reglas por favor, para evitar malos entendidos 👻🔪🔪\n`
 			teks += `╔═══•ೋೋ•═══╗\n`
-            teks += `➣ 𝐓𝐔𝐑𝐁𝐎⚡𝐁𝐎𝐓 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1\n`
-            teks += `╚═[-𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑.li ]═╝\n`
+            teks += `➣KIKE⚡𝐁𝐎�`
+            teks += `╚═[KIKE𝐍𝐓𝐑.li ]═╝\n`
 			let buff = await getBuffer(ppimg)
 		    turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -149,8 +149,8 @@ turbo.on('CB:action,,call', async json => {
 　        teks += ` .　ﾟ • ﾟ   •　。ﾟ    • ඞ   。　ﾟ .\n`
             teks += ` @${num.split('@')[0]} 🐈💨\n`
             teks += `╔═══•ೋೋ•═══╗\n`
-      　  teks += `𝐓𝐔𝐑𝐁𝐎⚡𝐁𝐎𝐓 😎 úsalo en tus grupos👇🏻 https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1\n`
-            teks += `╚═[-𝐓𝐔𝐑𝐁𝐎☬𝐍𝐓𝐑.li ]═╝\n`
+      　  teks += `�KIKSPORT𝐁𝐎𝐓 😎`
+            teks += `╚═[YO`
 			let buff = await getBuffer(ppimg)
 			turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'promote') {
