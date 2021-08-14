@@ -128,12 +128,12 @@ turbo.on('CB:action,,call', async json => {
 			teks += `║➣ BIENVENID@\n`
 			teks += `║➣ ${mdata.subject}\n`			
 			teks += `╰─────••◈••────╯\n`
-		    teks += `Hola 👋🏻 Espero que se sienta como en casa       🍿🍭🍫🍬🍡🍧\n`
-			teks += `Disfruta del grupo 🥳 se sociable y aporta 🤗, Quizás encuentres el amor      🥺 👉🏻👈🏻 💞♥️💞\n`
-            teks += `Lee las reglas por favor, para evitar malos entendidos 👻🔪🔪\n`
+		    teks += `Estamos muy contentos de que te hayas unido a nuestro equipo de WhatsApp, para el bien de nuestra comunidad ¡Bienvenido!\n`
+			teks += `estamos muy contentos de que formen parte de este excelente grupo de WhatsApp donde todos aportamos ideas para construir una buena relación de beneficio mutuo.\n`
+            teks += `Lee las reglas por favor, para evitar malos entendidos, menu del bot con .menu\n`
 			teks += `╔═══•ೋೋ•═══╗\n`
-            teks += `➣KIKE⚡𝐁𝐎�`
-            teks += `╚═[KIKE𝐍𝐓𝐑.li ]═╝\n`
+            teks += `➣*KIKE SPORT BOT*`
+            teks += `╚═[KIKESPORT\n`
 			let buff = await getBuffer(ppimg)
 		    turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -143,14 +143,14 @@ turbo.on('CB:action,,call', async json => {
 			} catch {
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
-			teks = `Adiós 🙋🏻‍♂️ estaremos mejor sin ti 😹\n`
+			teks = ` Adioa zabu Todo el pinche día has estado chingando a ver si te callas\n`
 			teks += `. 。  • 　。•。ඞ •  •　ﾟ。　。\n`
-       　 teks += `No vuelvas por favor 😹\n`
+       　 teks += `No vuelvas por favor\n`
 　        teks += ` .　ﾟ • ﾟ   •　。ﾟ    • ඞ   。　ﾟ .\n`
             teks += ` @${num.split('@')[0]} 🐈💨\n`
             teks += `╔═══•ೋೋ•═══╗\n`
-      　  teks += `�KIKSPORT𝐁𝐎𝐓 😎`
-            teks += `╚═[YO`
+      　  teks += `KIKESPORT BOT`
+            teks += `BUENO`
 			let buff = await getBuffer(ppimg)
 			turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'promote') {
@@ -163,7 +163,7 @@ turbo.on('CB:action,,call', async json => {
 				}
 			let buff = await getBuffer(ppimg)
 			
-			teks = `*ERES EL NUEVO ADMIN 😎*
+			teks = `*ERES EL NUEVO ADMIN*
 			
 \`\`\`Nombre :\`\`\` ${num.replace('@s.whatsapp.net', '')}
 
@@ -181,7 +181,7 @@ turbo.on('CB:action,,call', async json => {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
 			let buff = await getBuffer(ppimg)
-			teks = `*YA NO ERES ADMIN 🥺*
+			teks = `*YA NO ERES ADMIN*
 			
 \`\`\`Nombre :\`\`\` ${num.replace('@s.whatsapp.net', '')}
 
@@ -1000,89 +1000,88 @@ switch (command) {
     var menu = `  
 
 𝐇𝐨𝐥𝐚 ${pushname} 𝐛𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@ 𝐚𝐥 𝐦𝐞𝐧𝐮
-╭────•••◈•••───╮
-KIKESPORT⚡BOT 👇🏻:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
+            ╭────•••◈•••───╮
+            KIKESPORT😼BOT 👇🏻
+:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
 
  𝐈𝐧𝐟𝐨
-✪➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
-✪➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
-✪➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
-✪➣ ${prefix}𝐢𝐧𝐬𝐭𝐚𝐥𝐚𝐫
-✪➣ ${prefix}𝐛𝐮𝐠
+😼➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
+😼➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
+😼➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
 
  𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
-✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫
-✪➣ ${prefix}𝐬𝐰𝐦
-✪➣ ${prefix}𝐚𝐭𝐭𝐩
-✪➣ ${prefix}𝐞𝐦𝐨𝐣𝐢  
-✪➣ ${prefix}𝐭𝐨𝐯𝐢𝐝
-✪➣ ${prefix}𝐭𝐨𝐢𝐦𝐠
-✪➣ ${prefix}𝐫𝐞𝐯𝐞𝐫𝐬𝐞
-✪➣ ${prefix}𝐭𝐨𝐮𝐫𝐥
-✪➣ ${prefix}𝐬𝐥𝐨𝐰 
-✪➣ ${prefix}𝐟𝐚𝐬𝐭
-✪➣ ${prefix}𝐭𝐨𝐦𝐩𝟑
+😼➣ ${prefix}sticker
+😼➣ ${prefix}swm
+😼➣ ${prefix}attp
+😼➣ ${prefix}𝐞𝐦𝐨𝐣𝐢  
+😼➣ ${prefix}𝐭𝐨𝐯𝐢𝐝
+😼➣ ${prefix}𝐭𝐨𝐢𝐦𝐠
+😼➣ ${prefix}𝐫𝐞𝐯𝐞𝐫𝐬𝐞
+😼➣ ${prefix}𝐭𝐨𝐮𝐫𝐥
+😼➣ ${prefix}𝐬𝐥𝐨𝐰 
+😼➣ ${prefix}𝐟𝐚𝐬𝐭
+😼➣ ${prefix}𝐭𝐨𝐦𝐩𝟑
 
-₮ɄɌɃØ 𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
-✪➣ ${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
-✪➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
-✪➣ ${prefix}𝐠𝐢𝐟𝐭𝐚𝐠
-✪➣ ${prefix}𝐤𝐨𝐧𝐭𝐚𝐠
-✪➣ ${prefix}𝐝𝐨𝐜𝐭𝐚𝐠
-✪➣ ${prefix}𝐭𝐨𝐭𝐚𝐠
-✪➣ ${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
-✪➣ ${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
+𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
+😼➣ ${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
+😼➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
+😼➣ ${prefix}𝐠𝐢𝐟𝐭𝐚𝐠
+😼➣ ${prefix}𝐤𝐨𝐧𝐭𝐚𝐠
+😼➣ ${prefix}𝐝𝐨𝐜𝐭𝐚𝐠
+😼➣ ${prefix}𝐭𝐨𝐭𝐚𝐠
+😼➣ ${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
+😼➣ ${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
 
-₮ɄɌɃØ 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
-✪➣ ${prefix}𝐩𝐥𝐚𝐲
-✪➣ ${prefix}𝐲𝐭𝐦𝐩𝟑
-✪➣ ${prefix}𝐲𝐭𝐦𝐩𝟒
-✪➣ ${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
-✪➣ ${prefix}𝐟𝐛
+𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
+😼➣ ${prefix}𝐩𝐥𝐚𝐲
+😼➣ ${prefix}𝐲𝐭𝐦𝐩𝟑
+😼➣ ${prefix}𝐲𝐭𝐦𝐩𝟒
+😼➣ ${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
+😼➣ ${prefix}𝐟𝐛
 
-₮ɄɌɃØ 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
-✪➣ ${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
-✪➣ ${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
-✪➣ ${prefix}𝐯𝐢𝐝𝐞𝐨
-✪➣ ${prefix}𝐲𝐭𝐬𝐞𝐚𝐫𝐜𝐡
-✪➣ ${prefix}𝐠𝐨𝐨𝐠𝐥𝐞
-✪➣ ${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
-✪➣ ${prefix}𝐭𝐰𝐢𝐜𝐡
+𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
+😼➣ ${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
+😼➣ ${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
+😼➣ ${prefix}𝐯𝐢𝐝𝐞𝐨
+😼➣ ${prefix}𝐲𝐭𝐬𝐞𝐚𝐫𝐜𝐡
+😼➣ ${prefix}𝐠𝐨𝐨𝐠𝐥𝐞
+😼➣ ${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
+😼➣ ${prefix}𝐭𝐰𝐢𝐜𝐡
 
-₮ɄɌɃØ 𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
-✪➣ ${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
-✪➣ ${prefix} 𝐥𝐨𝐥𝐢
-✪➣ ${prefix}𝐰𝐚𝐢𝐟𝐮
-✪➣ ${prefix}𝐡𝐮𝐬𝐛𝐮
-✪➣ ${prefix}𝐢𝐦𝐚𝐠𝐞
-✪➣ ${prefix}𝐩𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭
-✪➣ ${prefix}𝐚𝐧𝐢𝐦𝐞
-✪➣ ${prefix}𝐰𝐚𝐥𝐥𝐩𝐚𝐩𝐞𝐫
-✪➣ ${prefix}𝐦𝐮𝐣𝐞𝐫
-✪➣ ${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
-✪➣ ${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
+𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
+😼➣ ${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
+😼➣ ${prefix} 𝐥𝐨𝐥𝐢
+😼➣ ${prefix}𝐰𝐚𝐢𝐟𝐮
+😼➣ ${prefix}𝐡𝐮𝐬𝐛𝐮
+😼➣ ${prefix}𝐢𝐦𝐚𝐠𝐞
+😼➣ ${prefix}𝐩𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭
+😼➣ ${prefix}𝐚𝐧𝐢𝐦𝐞
+😼➣ ${prefix}𝐰𝐚𝐥𝐥𝐩𝐚𝐩𝐞𝐫
+😼➣ ${prefix}𝐦𝐮𝐣𝐞𝐫
+😼➣ ${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
+😼➣ ${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
 
-₮ɄɌɃØ 𝐆𝐫𝐮𝐩𝐨𝐬
-✪➣ ${prefix}𝐥𝐞𝐯𝐞𝐥
-✪➣ ${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
-✪➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞 @
-✪➣ ${prefix}𝐤𝐢𝐜𝐤 @
-✪➣ ${prefix}𝐥𝐢𝐬𝐭𝐚𝐝𝐦𝐢𝐧
-✪➣ ${prefix}𝐥𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞
-✪➣ ${prefix}𝐥𝐢𝐧𝐤𝐠𝐜
-✪➣ ${prefix}𝐠𝐚𝐲 @
-✪➣ ${prefix}𝐫𝐚𝐭𝐞
-✪➣ ${prefix}𝐥𝐞𝐚𝐯𝐞
-✪➣ ${prefix}𝐜𝐞𝐫𝐫𝐚𝐫
-✪➣ ${prefix}𝐚𝐛𝐫𝐢𝐫
-✪➣ ${prefix}𝐰𝐞𝐥𝐜𝐨𝐦𝐞
-✪➣ ${prefix}𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
-✪➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞𝐚𝐥𝐥
-✪➣ ${prefix}𝐫𝐚𝐧𝐤𝐠𝐚𝐲
-✪➣ ${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
-✪➣ ${prefix}𝐚𝐟𝐤
+𝐆𝐫𝐮𝐩𝐨𝐬
+😼➣ ${prefix}𝐥𝐞𝐯𝐞𝐥
+😼➣ ${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
+😼➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞 @
+😼➣ ${prefix}𝐤𝐢𝐜𝐤 @
+😼➣ ${prefix}𝐥𝐢𝐬𝐭𝐚𝐝𝐦𝐢𝐧
+😼➣ ${prefix}𝐥𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞
+😼➣ ${prefix}𝐥𝐢𝐧𝐤𝐠𝐜
+😼➣ ${prefix}𝐠𝐚𝐲 @
+😼➣ ${prefix}𝐫𝐚𝐭𝐞
+😼➣ ${prefix}𝐥𝐞𝐚𝐯𝐞
+😼➣ ${prefix}𝐜𝐞𝐫𝐫𝐚𝐫
+😼➣ ${prefix}𝐚𝐛𝐫𝐢𝐫
+😼➣ ${prefix}𝐰𝐞𝐥𝐜𝐨𝐦𝐞
+😼➣ ${prefix}𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
+😼➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞𝐚𝐥𝐥
+😼➣ ${prefix}𝐫𝐚𝐧𝐤𝐠𝐚𝐲
+😼➣ ${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
+😼➣ ${prefix}𝐚𝐟𝐤
 
-₮ɄɌɃØ 𝐎𝐭𝐫𝐨𝐬
+𝐎𝐭𝐫𝐨𝐬
 ✪➣ ${prefix}𝐜𝐨𝐯𝐢𝐝𝐰𝐨𝐫𝐥𝐝
 ✪➣ ${prefix}𝐜𝐧𝐧
 ✪➣ ${prefix}𝐫𝐞𝐯𝐢𝐩 [ 8.8.8.8 ]
@@ -1097,7 +1096,7 @@ KIKESPORT⚡BOT 👇🏻:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
 ✪➣ ${prefix}𝐜𝐚𝐬𝐬𝐢𝐧𝐨
 ✪➣ ${prefix}𝐟𝐚𝐤𝐞
 
-₮ɄɌɃØ 𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
+𝐒𝐨𝐥𝐨 𝐜𝐫𝐞𝐚𝐝𝐨𝐫
 ✪➣ ${prefix}𝐬𝐞𝐥𝐟
 ✪➣ ${prefix}𝐩𝐮𝐛𝐥𝐢𝐜
 ✪➣ ${prefix}𝐝𝐞𝐥𝐞𝐭𝐞
@@ -1109,24 +1108,24 @@ KIKESPORT⚡BOT 👇🏻:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
 ✪➣ ${prefix}𝐬𝐞𝐭𝐭𝐡𝐮𝐦𝐛
 ✪➣ ${prefix}𝐬𝐞𝐭𝐩𝐫𝐞𝐟𝐢𝐱
 ✪➣ ${prefix}𝐬𝐞𝐭𝐟𝐚𝐤𝐞𝐢𝐦𝐠
-✪➣ ${prefix}𝐧𝐨𝐩𝐫𝐞𝐟𝐢𝐱
-✪➣ ${prefix}𝐦𝐮𝐭𝐞
-✪➣ ${prefix}𝐮𝐧𝐦𝐮𝐭𝐞
-✪➣ ${prefix}𝐬𝐩𝐚𝐦
-✪➣ ${prefix}𝐨𝐧
-✪➣ ${prefix}𝐨𝐟𝐟
-✪➣ ${prefix}𝐬𝐞𝐭𝐛𝐢𝐨
-✪➣ ${prefix}𝐬𝐞𝐭𝐫𝐞𝐩𝐥𝐲
-✪➣ ${prefix}𝐩𝐢𝐧
-✪➣ ${prefix}𝐮𝐧𝐩𝐢𝐧
-✪➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞
-✪➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞𝐚𝐥𝐥
-✪➣ ${prefix}𝐫𝐞𝐚𝐝𝐚𝐥𝐥
-✪➣ ${prefix}𝐮𝐧𝐫𝐞𝐚𝐝𝐚𝐥𝐥
-✪➣ ${prefix}𝐜𝐡𝐚𝐭
-✪➣ ${prefix}𝐚𝐩𝐚𝐠𝐚𝐫
+😼➣ ${prefix}𝐧𝐨𝐩𝐫𝐞𝐟𝐢𝐱
+😼➣ ${prefix}𝐦𝐮𝐭𝐞
+😼➣ ${prefix}𝐮𝐧𝐦𝐮𝐭𝐞
+😼➣ ${prefix}𝐬𝐩𝐚𝐦
+😼➣ ${prefix}𝐨𝐧
+😼➣ ${prefix}𝐨𝐟𝐟
+😼➣ ${prefix}𝐬𝐞𝐭𝐛𝐢𝐨
+😼➣ ${prefix}𝐬𝐞𝐭𝐫𝐞𝐩𝐥𝐲
+😼➣ ${prefix}𝐩𝐢𝐧
+😼➣ ${prefix}𝐮𝐧𝐩𝐢𝐧
+😼➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞
+😼➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞𝐚𝐥𝐥
+😼➣ ${prefix}𝐫𝐞𝐚𝐝𝐚𝐥𝐥
+😼➣ ${prefix}𝐮𝐧𝐫𝐞𝐚𝐝𝐚𝐥𝐥
+😼➣ ${prefix}𝐜𝐡𝐚𝐭
+😼➣ ${prefix}𝐚𝐩𝐚𝐠𝐚𝐫
  
-₮ɄɌɃØ 𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
+𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
 ✪➣ 𝐇𝐢𝐭𝐬 𝐝𝐞 𝐡𝐨𝐲 : ${hit_today.length}*
 ✪➣ 𝐂𝐞𝐥𝐮𝐥𝐚𝐫 : ${device_manufacturer}
 ✪➣ 𝐌𝐨𝐝𝐞𝐥𝐨 : ${device_model}
@@ -1427,7 +1426,7 @@ case prefix+ 'avatar':
 		case prefix+ 'waifu':
 			waifud = await axios.get('https://nekos.life/api/v2/img/waifu')
 			nyed = await getBuffer(waifud.data.url)
-			turbo.sendMessage(from, nyed, image, { caption: '✪ 𝐁𝐘 𝐓𝐔𝐑𝐁𝐎 ✪', quoted: mek })
+			turbo.sendMessage(from, nyed, image, { caption: '✪kikw ✪', quoted: mek })
 			.catch(err => {
 				return('Ocurrió un error, intentalo de nuevo...')
 			})
@@ -1438,7 +1437,7 @@ if(!isUrl(args[0]) && !args[0].includes('mediafire')) return reply('Link invalid
 reply('*Espera un momento...*')
 teks = args.join(' ')
 const resm = await turbomfire(teks)
-result = `  「  𝐁𝐘 𝐓𝐔𝐑𝐁𝐎  」
+result = `  「  𝐁𝐘 �KIKE  」
 *Nombre :* ${resm[0].nombre}
 *Tamaño :* ${resm[0].size}
 *Link :* ${resm[0].link}
@@ -2546,7 +2545,7 @@ case prefix+ 'attp':
 ✪➣ Bloqueo automático de llamada
 ✪➣ El bot no está activo 24/07..
 ✪➣ No coloques comandos que no sepas para que son.
-✪➣Si te interesa el bot, descargalo del canal de TURBO NTR
+✪➣Suscribete a Clangosta.
 *Consecuencias por violar las reglas*
 Los bots te bloquearán o dejarán los grupos que administras.
 ━━━━[ *IMPORTANTE!* ]━━━
@@ -2563,11 +2562,7 @@ break
 case prefix+ 'comandos':
  case prefix+ 'instalar':
         her = `*INSTALACIÓN*
-  Tutorial de instalación en el canal 
-  TURBO NTR
-  Depende de tu apoyo para que este bot siga funcionando
-
-  https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A?sub_confirmatión=1
+  Comunicate con el creador
 
 💞💞💞💞💞💞💞
 `
@@ -2575,11 +2570,11 @@ faketokoforwaded(her)
 break
    case prefix+ 'canal':
 			case prefix+ 'chanel':
-                  reply ('https://youtube.com/channel/UCqiXnIA8_K83MqHtnyMzR2A')
+                  reply ('https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g')
                 break
 case prefix+ 'creador':
 			case prefix+ 'dueño':
-                  reply ('Mi creador es turbo Wa.me/+12244253896')
+                  reply ('Mi creador es clan kikesport')
                 break
 case prefix+ 'tomp3':
             if (!isQuotedVideo) return fakegroup('Responde a un video')
