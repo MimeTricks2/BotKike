@@ -70,7 +70,7 @@ const
 		processTime,
 	} = require("@adiwajshing/baileys")
 //=================================================//
-prefix = '.'
+prefix = '/'
 hit_today = []
 blocked = []
 banChats = false
@@ -131,9 +131,9 @@ turbo.on('CB:action,,call', async json => {
 		    teks += `Estamos muy contentos de que te hayas unido a nuestro equipo de WhatsApp, para el bien de nuestra comunidad ¡Bienvenido!\n`
 			teks += `estamos muy contentos de que formen parte de este excelente grupo de WhatsApp donde todos aportamos ideas para construir una buena relación de beneficio mutuo.\n`
             teks += `Lee las reglas por favor, para evitar malos entendidos, menu del bot con .menu\n`
-			teks += `╔═══•ೋೋ•═══╗\n`
-            teks += `➣*KIKE SPORT BOT*`
-            teks += `╚═[KIKESPORT\n`
+			teks += ``
+            teks += ``
+            teks += ``
 			let buff = await getBuffer(ppimg)
 		    turbo.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -143,7 +143,7 @@ turbo.on('CB:action,,call', async json => {
 			} catch {
 			ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 			}
-			teks = ` Adioa zabu Todo el pinche día has estado chingando a ver si te callas\n`
+			teks = ` Adios Todo el pinche día has estado chingando a ver si te callas\n`
 			teks += `. 。  • 　。•。ඞ •  •　ﾟ。　。\n`
        　 teks += `No vuelvas por favor\n`
 　        teks += ` .　ﾟ • ﾟ   •　。ﾟ    • ඞ   。　ﾟ .\n`
@@ -1000,86 +1000,85 @@ switch (command) {
     var menu = `  
 
 𝐇𝐨𝐥𝐚 ${pushname} 𝐛𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@ 𝐚𝐥 𝐦𝐞𝐧𝐮
-            ╭────•••◈•••───╮
-            KIKESPORT😼BOT 👇🏻
-:https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
+         
+Suscribete :https://youtube.com/channel/UClFXhivu21aU_VUzzKQmr6g
 
  𝐈𝐧𝐟𝐨
-😼➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
-😼➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
-😼➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
+➣ ${prefix}𝐜𝐚𝐧𝐚𝐥
+➣ ${prefix}𝐜𝐫𝐞𝐚𝐝𝐨𝐫
+➣ ${prefix}𝐫𝐞𝐠𝐥𝐚𝐬
 
  𝐂𝐫𝐞𝐚𝐝𝐨𝐫𝐞𝐬
-😼➣ ${prefix}sticker
-😼➣ ${prefix}swm
-😼➣ ${prefix}attp
-😼➣ ${prefix}𝐞𝐦𝐨𝐣𝐢  
-😼➣ ${prefix}𝐭𝐨𝐯𝐢𝐝
-😼➣ ${prefix}𝐭𝐨𝐢𝐦𝐠
-😼➣ ${prefix}𝐫𝐞𝐯𝐞𝐫𝐬𝐞
-😼➣ ${prefix}𝐭𝐨𝐮𝐫𝐥
-😼➣ ${prefix}𝐬𝐥𝐨𝐰 
-😼➣ ${prefix}𝐟𝐚𝐬𝐭
-😼➣ ${prefix}𝐭𝐨𝐦𝐩𝟑
+➣ ${prefix}sticker
+➣ ${prefix}swm
+➣ ${prefix}attp
+➣ ${prefix}𝐞𝐦𝐨𝐣𝐢  
+➣ ${prefix}𝐭𝐨𝐯𝐢𝐝
+➣ ${prefix}𝐭𝐨𝐢𝐦𝐠
+➣ ${prefix}𝐫𝐞𝐯𝐞𝐫𝐬𝐞
+➣ ${prefix}𝐭𝐨𝐮𝐫𝐥
+➣ ${prefix}𝐬𝐥𝐨𝐰 
+➣ ${prefix}𝐟𝐚𝐬𝐭
+➣ ${prefix}𝐭𝐨𝐦𝐩𝟑
 
 𝐌𝐞𝐧𝐜𝐢𝐨𝐧𝐞𝐬
-😼➣ ${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
-😼➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
-😼➣ ${prefix}𝐠𝐢𝐟𝐭𝐚𝐠
-😼➣ ${prefix}𝐤𝐨𝐧𝐭𝐚𝐠
-😼➣ ${prefix}𝐝𝐨𝐜𝐭𝐚𝐠
-😼➣ ${prefix}𝐭𝐨𝐭𝐚𝐠
-😼➣ ${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
-😼➣ ${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
+➣ ${prefix}𝐡𝐢𝐝𝐞𝐭𝐚𝐠
+➣ ${prefix}𝐬𝐭𝐢𝐜𝐤𝐭𝐚𝐠
+➣ ${prefix}𝐠𝐢𝐟𝐭𝐚𝐠
+➣ ${prefix}𝐤𝐨𝐧𝐭𝐚𝐠
+➣ ${prefix}𝐝𝐨𝐜𝐭𝐚𝐠
+➣ ${prefix}𝐭𝐨𝐭𝐚𝐠
+➣ ${prefix}𝐢𝐧𝐟𝐨𝐚𝐥𝐥
+➣ ${prefix}𝐭𝐚𝐠𝐚𝐥𝐥
 
 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬
-😼➣ ${prefix}𝐩𝐥𝐚𝐲
-😼➣ ${prefix}𝐲𝐭𝐦𝐩𝟑
-😼➣ ${prefix}𝐲𝐭𝐦𝐩𝟒
-😼➣ ${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
-😼➣ ${prefix}𝐟𝐛
+➣ ${prefix}𝐩𝐥𝐚𝐲
+➣ ${prefix}𝐲𝐭𝐦𝐩𝟑
+➣ ${prefix}𝐲𝐭𝐦𝐩𝟒
+➣ ${prefix}𝐭𝐰𝐢𝐭𝐭𝐞𝐫
+➣ ${prefix}𝐟𝐛
 
 𝐁𝐮𝐬𝐪𝐮𝐞𝐝𝐚𝐬
-😼➣ ${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
-😼➣ ${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
-😼➣ ${prefix}𝐯𝐢𝐝𝐞𝐨
-😼➣ ${prefix}𝐲𝐭𝐬𝐞𝐚𝐫𝐜𝐡
-😼➣ ${prefix}𝐠𝐨𝐨𝐠𝐥𝐞
-😼➣ ${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
-😼➣ ${prefix}𝐭𝐰𝐢𝐜𝐡
+➣ ${prefix}𝐢𝐠𝐬𝐭𝐚𝐥𝐤
+➣ ${prefix}𝐭𝐢𝐤𝐭𝐨𝐤𝐬𝐭𝐚𝐥𝐤
+➣ ${prefix}𝐯𝐢𝐝𝐞𝐨
+➣ ${prefix}𝐲𝐭𝐬𝐞𝐚𝐫𝐜𝐡
+➣ ${prefix}𝐠𝐨𝐨𝐠𝐥𝐞
+➣ ${prefix}𝐛𝐫𝐚𝐢𝐧𝐥𝐲
+➣ ${prefix}𝐭𝐰𝐢𝐜𝐡
 
 𝐈𝐦𝐚𝐠𝐞𝐧𝐞𝐬
-😼➣ ${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
-😼➣ ${prefix} 𝐥𝐨𝐥𝐢
-😼➣ ${prefix}𝐰𝐚𝐢𝐟𝐮
-😼➣ ${prefix}𝐡𝐮𝐬𝐛𝐮
-😼➣ ${prefix}𝐢𝐦𝐚𝐠𝐞
-😼➣ ${prefix}𝐩𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭
-😼➣ ${prefix}𝐚𝐧𝐢𝐦𝐞
-😼➣ ${prefix}𝐰𝐚𝐥𝐥𝐩𝐚𝐩𝐞𝐫
-😼➣ ${prefix}𝐦𝐮𝐣𝐞𝐫
-😼➣ ${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
-😼➣ ${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
+➣ ${prefix}𝐚𝐯𝐚𝐭𝐚𝐫
+➣ ${prefix} 𝐥𝐨𝐥𝐢
+➣ ${prefix}𝐰𝐚𝐢𝐟𝐮
+➣ ${prefix}𝐡𝐮𝐬𝐛𝐮
+➣ ${prefix}𝐢𝐦𝐚𝐠𝐞
+➣ ${prefix}𝐩𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭
+➣ ${prefix}𝐚𝐧𝐢𝐦𝐞
+➣ ${prefix}𝐰𝐚𝐥𝐥𝐩𝐚𝐩𝐞𝐫
+➣ ${prefix}𝐦𝐮𝐣𝐞𝐫
+➣ ${prefix}𝐡𝐨𝐦𝐛𝐫𝐞
+➣ ${prefix}𝐜𝐲𝐛𝐞𝐫𝐩𝐮𝐧𝐤
 
 𝐆𝐫𝐮𝐩𝐨𝐬
-😼➣ ${prefix}𝐥𝐞𝐯𝐞𝐥
-😼➣ ${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
-😼➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞 @
-😼➣ ${prefix}𝐤𝐢𝐜𝐤 @
-😼➣ ${prefix}𝐥𝐢𝐬𝐭𝐚𝐝𝐦𝐢𝐧
-😼➣ ${prefix}𝐥𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞
-😼➣ ${prefix}𝐥𝐢𝐧𝐤𝐠𝐜
-😼➣ ${prefix}𝐠𝐚𝐲 @
-😼➣ ${prefix}𝐫𝐚𝐭𝐞
-😼➣ ${prefix}𝐥𝐞𝐚𝐯𝐞
-😼➣ ${prefix}𝐜𝐞𝐫𝐫𝐚𝐫
-😼➣ ${prefix}𝐚𝐛𝐫𝐢𝐫
-😼➣ ${prefix}𝐰𝐞𝐥𝐜𝐨𝐦𝐞
-😼➣ ${prefix}𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
-😼➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞𝐚𝐥𝐥
-😼➣ ${prefix}𝐫𝐚𝐧𝐤𝐠𝐚𝐲
-😼➣ ${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
-😼➣ ${prefix}𝐚𝐟𝐤
+➣ ${prefix}𝐥𝐞𝐯𝐞𝐥
+➣ ${prefix}𝐩𝐫𝐨𝐦𝐨𝐭𝐞 @
+➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞 @
+➣ ${prefix}𝐤𝐢𝐜𝐤 @
+➣ ${prefix}𝐥𝐢𝐬𝐭𝐚𝐝𝐦𝐢𝐧
+➣ ${prefix}𝐥𝐢𝐬𝐭𝐨𝐧𝐥𝐢𝐧𝐞
+➣ ${prefix}𝐥𝐢𝐧𝐤𝐠𝐜
+➣ ${prefix}𝐠𝐚𝐲 @
+➣ ${prefix}𝐫𝐚𝐭𝐞
+➣ ${prefix}𝐥𝐞𝐚𝐯𝐞
+➣ ${prefix}𝐜𝐞𝐫𝐫𝐚𝐫
+➣ ${prefix}𝐚𝐛𝐫𝐢𝐫
+➣ ${prefix}𝐰𝐞𝐥𝐜𝐨𝐦𝐞
+➣ ${prefix}𝐚𝐧𝐭𝐢𝐥𝐢𝐧𝐤
+➣ ${prefix}𝐝𝐞𝐦𝐨𝐭𝐞𝐚𝐥𝐥
+➣ ${prefix}𝐫𝐚𝐧𝐤𝐠𝐚𝐲
+➣ ${prefix}𝐫𝐚𝐧𝐤𝐥𝐢𝐧𝐝𝐨
+➣ ${prefix}𝐚𝐟𝐤
 
 𝐎𝐭𝐫𝐨𝐬
 ✪➣ ${prefix}𝐜𝐨𝐯𝐢𝐝𝐰𝐨𝐫𝐥𝐝
@@ -1108,22 +1107,22 @@ switch (command) {
 ✪➣ ${prefix}𝐬𝐞𝐭𝐭𝐡𝐮𝐦𝐛
 ✪➣ ${prefix}𝐬𝐞𝐭𝐩𝐫𝐞𝐟𝐢𝐱
 ✪➣ ${prefix}𝐬𝐞𝐭𝐟𝐚𝐤𝐞𝐢𝐦𝐠
-😼➣ ${prefix}𝐧𝐨𝐩𝐫𝐞𝐟𝐢𝐱
-😼➣ ${prefix}𝐦𝐮𝐭𝐞
-😼➣ ${prefix}𝐮𝐧𝐦𝐮𝐭𝐞
-😼➣ ${prefix}𝐬𝐩𝐚𝐦
-😼➣ ${prefix}𝐨𝐧
-😼➣ ${prefix}𝐨𝐟𝐟
-😼➣ ${prefix}𝐬𝐞𝐭𝐛𝐢𝐨
-😼➣ ${prefix}𝐬𝐞𝐭𝐫𝐞𝐩𝐥𝐲
-😼➣ ${prefix}𝐩𝐢𝐧
-😼➣ ${prefix}𝐮𝐧𝐩𝐢𝐧
-😼➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞
-😼➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞𝐚𝐥𝐥
-😼➣ ${prefix}𝐫𝐞𝐚𝐝𝐚𝐥𝐥
-😼➣ ${prefix}𝐮𝐧𝐫𝐞𝐚𝐝𝐚𝐥𝐥
-😼➣ ${prefix}𝐜𝐡𝐚𝐭
-😼➣ ${prefix}𝐚𝐩𝐚𝐠𝐚𝐫
+➣ ${prefix}𝐧𝐨𝐩𝐫𝐞𝐟𝐢𝐱
+➣ ${prefix}𝐦𝐮𝐭𝐞
+➣ ${prefix}𝐮𝐧𝐦𝐮𝐭𝐞
+➣ ${prefix}𝐬𝐩𝐚𝐦
+➣ ${prefix}𝐨𝐧
+➣ ${prefix}𝐨𝐟𝐟
+➣ ${prefix}𝐬𝐞𝐭𝐛𝐢𝐨
+➣ ${prefix}𝐬𝐞𝐭𝐫𝐞𝐩𝐥𝐲
+➣ ${prefix}𝐩𝐢𝐧
+➣ ${prefix}𝐮𝐧𝐩𝐢𝐧
+➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞
+➣ ${prefix}𝐚𝐫𝐜𝐡𝐢𝐯𝐞𝐚𝐥𝐥
+➣ ${prefix}𝐫𝐞𝐚𝐝𝐚𝐥𝐥
+➣ ${prefix}𝐮𝐧𝐫𝐞𝐚𝐝𝐚𝐥𝐥
+➣ ${prefix}𝐜𝐡𝐚𝐭
+➣ ${prefix}𝐚𝐩𝐚𝐠𝐚𝐫
  
 𝐈𝐧𝐟𝐨 𝐝𝐞𝐥 𝐛𝐨𝐭
 ✪➣ 𝐇𝐢𝐭𝐬 𝐝𝐞 𝐡𝐨𝐲 : ${hit_today.length}*
