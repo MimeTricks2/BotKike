@@ -70,7 +70,7 @@ const
 		processTime,
 	} = require("@adiwajshing/baileys")
 //=================================================//
-prefix = '/'
+prefix = '.'
 hit_today = []
 blocked = []
 banChats = false
